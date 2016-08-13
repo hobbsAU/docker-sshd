@@ -1,6 +1,6 @@
-# docker-aria2 [![Docker Pulls](https://img.shields.io/docker/pulls/hobbsau/aria2.svg)](https://hub.docker.com/r/hobbsau/aria2/)
+# docker-sshd [![Docker Pulls](https://img.shields.io/docker/pulls/hobbsau/sshd.svg)](https://hub.docker.com/r/hobbsau/sshd/)
 
-Run aria2c from a docker container
+Run sshd from a docker container
 
 Key features of this repository:
 * Efficiency - image is small <10MB
@@ -16,14 +16,14 @@ To use this package you must ensure the following:
 
 ## Installation - including management scripts and src
 ```sh
-        git clone https://github.com/hobbsAU/docker-aria2.git
-        cd docker-aria2
+        git clone https://github.com/hobbsAU/docker-sshd.git
+        cd docker-sshd
         make run
 ```
 
 ## Installation - standalone Docker image
 ```sh
-docker pull hobbsau/aria2
+docker pull hobbsau/sshd
 ```
 
 ## Usage - using management scripts

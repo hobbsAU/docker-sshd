@@ -16,7 +16,7 @@ CONFIG_BIND1 = /srv/sshel/home:
 CONFIG_BIND2 = /srv/sshel/etc:
 
 # URL for triggering a rebuild
-TRIGGER_URL = https://registry.hub.docker.com/u/hobbsau/sshd/trigger//
+TRIGGER_URL = https://registry.hub.docker.com/u/hobbsau/sshd/trigger/edcdae8f-07c1-4012-800a-4361c05784c2/
 
 # Trigger a remote initiated rebuild
 build:
