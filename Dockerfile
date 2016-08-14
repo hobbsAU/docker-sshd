@@ -9,7 +9,7 @@ RUN 	apk add --update --no-cache $PACKAGE && \
 	# Add a user to run as non root
 	adduser -D -g '' sshel && \
 	# Disable password-based access to an account while allowing SSH access
-	sed -i "s/sshel:!/sshel:*/g" /etc/shadow
+	sed -i "s/sshel:!/sshel:*/g" /etc/shadow && \
 	# Disable root access
 	sed -i "s/root:/root:!/g" /etc/shadow
 
