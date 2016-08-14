@@ -8,12 +8,12 @@ CONTAINER_REPO = hobbsau/sshd
 CONTAINER_RUN = sshd-service
 
 # Define the exportable volumes for the container
-CONFIG_VOL1 = /home/sshel
-CONFIG_VOL2 = /etc/ssh
+CONFIG_VOL1 = /home/sshel:ro
+CONFIG_VOL2 = /etc/ssh:ro
 
 # This should point to the Docker host directory containing the config. The host directory must be owned by UID:GID 1000:1000. The format is '/host/directory:'
 CONFIG_BIND1 = /srv/sshel/home:
-CONFIG_BIND2 = /srv/sshel/etc:
+CONFIG_BIND2 = /srv/sshel/ssh:
 
 # URL for triggering a rebuild
 TRIGGER_URL = https://registry.hub.docker.com/u/hobbsau/sshd/trigger/edcdae8f-07c1-4012-800a-4361c05784c2/
