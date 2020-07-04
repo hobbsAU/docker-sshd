@@ -7,6 +7,9 @@ Key features of this repository:
 * Security - process runs inside the container as regular user and so does the docker image with the USER directive
 * Management - make script allows for easy configuration and ongoing maintenance
 
+## Requirements
+openssh: 8.3_p1
+
 ## Prerequisites
 To use this package you must ensure the following:
 * Linux host system configured with a working Docker installation 
