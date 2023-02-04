@@ -8,7 +8,7 @@ Key features of this repository:
 * Management - make script allows for easy configuration and ongoing maintenance
 
 ## Requirements
-openssh: 9.1_p1
+openssh: 9.1_p1-r2
 
 ## Prerequisites
 To use this package you must ensure the following:
