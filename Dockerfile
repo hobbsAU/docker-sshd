@@ -1,4 +1,4 @@
-FROM alpine:3.20.3
+FROM alpine:3.22
 
 LABEL 	org.opencontainers.image.authors="Adrian Hobbs <adrianhobbs@gmail.com>" \
 	org.opencontainers.image.title="Docker SSH" \
